@@ -1,16 +1,6 @@
-import React from 'react';
-const AppUrl = () => {
+class AppUrl {
 
-    let base_url = "http://localhost/BackendTrustlite/";
-
-    return (
-        <>
-        </>
-    )
+    static base_url = "http://localhost/BackendTrustlite/";
 }
-// class AppUrl {
-
-//     static base_url = "http://localhost/BackendTrustlite/";
-// }
 
 export default AppUrl;

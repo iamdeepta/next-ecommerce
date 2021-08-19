@@ -1,0 +1,54 @@
+{
+  "name": "next-ecommerce",
+  "homepage": "http://trust-lite.com",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "export": "next build && next export"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "ecommerce",
+    "nextjs",
+    "next"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "include-media": "^1.4.10",
+    "lodash": "^4.17.20",
+    "next": "^10.2.3",
+    "next-redux-wrapper": "^6.0.2",
+    "rc-slider": "^9.3.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.0",
+    "react-countdown": "^2.3.2",
+    "react-countup": "^4.3.3",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^6.8.2",
+    "react-rater": "^5.1.1",
+    "react-rating-stars-component": "^2.2.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^3.1.0",
+    "react-toastify": "^7.0.4",
+    "react-visibility-sensor": "^5.1.1",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "sass": "^1.26.10",
+    "swiper": "^6.2.0",
+    "swr": "^0.3.2",
+    "use-onclickoutside": "^0.3.1"
+  },
+  "devDependencies": {
+    "fslightbox-react": "^1.5.0",
+    "node-fetch": "^2.6.1"
+  }
+}

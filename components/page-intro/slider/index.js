@@ -7,7 +7,7 @@ import { useState,useEffect } from "react";
 // import Swiper core and required modules
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper/core";
 
-import AppUrl from '../../../pages/api/AppUrl.js';
+import {AppUrl} from '../../../pages/AppUrl.js';
 
 // install Swiper modules
 SwiperCore.use([Autoplay, Pagination, Navigation]);

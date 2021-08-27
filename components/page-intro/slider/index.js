@@ -19,7 +19,7 @@ const Slider = () => {
 const [data,setData] = useState([]);
   useEffect(async ()=>{
 
-    let result = await fetch("https://www.trust-lite.com/BackendTrustlite1/all/slider",{
+    let result = await fetch(AppUrl.base_url+"all/slider",{
 
       method:'POST',
       headers: {

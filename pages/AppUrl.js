@@ -1,6 +1,7 @@
 export class AppUrl {
 
-    static base_url = "http://localhost/BackendTrustlite/";
+    //static base_url = "http://localhost/BackendTrustlite/";
+    static base_url = "https://www.trust-lite.com/BackendTrustlite/";
 }
 
 //export default AppUrl;

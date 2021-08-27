@@ -1,15 +1,15 @@
-export class AppUrl {
+export default class AppUrl {
 
     //static base_url = "http://localhost/BackendTrustlite/";
     static base_url = "https://www.trust-lite.com/BackendTrustlite1/";
 }
 
 //export default AppUrl;
-import React from 'react'
+// import React from 'react'
 
-const Demo = () => {
+// const Demo = () => {
 
-    return(<></>);
-}
+//     return(<></>);
+// }
 
-export default Demo;
+// export default Demo;

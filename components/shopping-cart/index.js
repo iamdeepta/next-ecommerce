@@ -1,7 +1,7 @@
 import { useSelector, useDispatch  } from 'react-redux';
 import CheckoutStatus from '../../components/checkout-status';
 import Item from './item';
-import AppUrl from '../../pages/AppUrl.js';
+import {AppUrl} from '../../pages/AppUrl.js';
 import { useState,useEffect } from 'react';
 
 const ShoppingCart = () => {

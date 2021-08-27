@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper/core";
 
 import { useState,useEffect } from "react";
-import AppUrl from '../../pages/AppUrl.js';
+import {AppUrl} from '../../pages/AppUrl.js';
 
 // install Swiper modules
 SwiperCore.use([Pagination]);

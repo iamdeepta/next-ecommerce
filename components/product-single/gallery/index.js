@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router';
 import { useState,useEffect } from "react";
-import AppUrl from '../../../pages/AppUrl.js';
+import {AppUrl} from '../../../pages/AppUrl.js';
 import YoutubeEmbed from "./YoutubeEmbed";
 const Gallery = ({ images }) => {
   const [selectedPhoto, setSelectedPhoto] = useState(0);

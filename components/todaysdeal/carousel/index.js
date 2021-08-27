@@ -5,7 +5,7 @@ import ProductItem from './../../product-item';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { useState,useEffect } from "react";
-import AppUrl from '../../../pages/AppUrl.js';
+import {AppUrl} from '../../../pages/AppUrl.js';
 
 
 let slidesPerView = 2;

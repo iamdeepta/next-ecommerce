@@ -3,7 +3,7 @@ import ProductItem from './../../product-item';
 import ProductsLoading from './loading';
 
 import { useState,useEffect } from "react";
-import AppUrl from '../../../pages/AppUrl.js';
+import {AppUrl} from '../../../pages/AppUrl.js';
 
 import {useRouter} from 'next/router';
 

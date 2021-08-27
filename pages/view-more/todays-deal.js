@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import ProductsContent from "./view-more-products";
 import Angle from "../../assets/icons/Angle-right";
 
-import AppUrl from '../../pages/AppUrl.js';
+import {AppUrl} from '../../pages/AppUrl.js';
 import CategoryLeftSideBar from '../../pages/categoryleftsidebar.js'
 
 

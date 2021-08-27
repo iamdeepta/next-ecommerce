@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { useState,useEffect } from "react";
-import AppUrl from '../../pages/AppUrl.js';
+import {AppUrl} from '../../pages/AppUrl.js';
 
 export default function App() {
 

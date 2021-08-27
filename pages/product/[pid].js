@@ -7,7 +7,7 @@ import Content from '../../components/product-single/content';
 import Description from '../../components/product-single/description';
 import Reviews from '../../components/product-single/reviews';
 import { server } from '../../utils/server'; 
-import AppUrl from '../../pages/AppUrl.js';
+import {AppUrl} from '../../pages/AppUrl.js';
 
 export async function getServerSideProps({ query }) {
 

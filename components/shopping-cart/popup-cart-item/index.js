@@ -4,7 +4,7 @@ import Item from './pop-item';
 import {useState,useEffect} from 'react';
 import { map } from 'lodash';
 
-import AppUrl from '../../../pages/AppUrl.js';
+import {AppUrl} from '../../../pages/AppUrl.js';
 
 
 const ShoppingCart = () => {

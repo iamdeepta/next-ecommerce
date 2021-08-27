@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router';
 import { useState,useEffect } from "react";
-import AppUrl from '../../../pages/AppUrl.js';
+import {AppUrl} from '../../../pages/AppUrl.js';
 import productsColors from './../../../utils/data/products-colors';
 import productsSizes from './../../../utils/data/products-sizes';
 import CheckboxColor from './../../products-filter/form-builder/checkbox-color';

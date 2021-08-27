@@ -4,7 +4,7 @@ import Link from "next/link";
 import Angle from "../../assets/icons/Angle-right";
 
 import { useState,useEffect } from "react";
-import AppUrl from '../../pages/AppUrl.js';
+import {AppUrl} from '../../pages/AppUrl.js';
 import CategoryLeftSideBar from '../../pages/categoryleftsidebar.js'
 
 // const styling = {

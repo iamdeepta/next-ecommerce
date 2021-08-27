@@ -1,7 +1,7 @@
 import ProductItemLoading from '../../../../../components/product-item/loading';
 import { useRouter } from 'next/router';
 import {useEffect, useState} from 'react';
-import AppUrl from '../../../../../pages/AppUrl.js';
+import {AppUrl} from '../../../../../pages/AppUrl.js';
 
 const ProductsLoading = () => {
 

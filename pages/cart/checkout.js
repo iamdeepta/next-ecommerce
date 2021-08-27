@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import CheckoutStatus from '../../components/checkout-status';
 import CheckoutItems from '../../components/checkout/items';
 import { useState, useEffect } from 'react';
-import AppUrl from '../AppUrl.js';
+import {AppUrl} from '../AppUrl.js';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from 'next/router';

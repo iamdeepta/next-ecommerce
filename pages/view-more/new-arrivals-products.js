@@ -5,7 +5,7 @@ import ProductsContent from "./view-more-products";
 import Angle from "../../assets/icons/Angle-right";
 import { useEffect, useState } from "react";
 
-import AppUrl from '../../pages/AppUrl.js';
+import {AppUrl} from '../../pages/AppUrl.js';
 import Categories from "../../components/catagories-grid";
 import CategoryLeftSideBar from '../../pages/categoryleftsidebar.js'
 // const styling = {

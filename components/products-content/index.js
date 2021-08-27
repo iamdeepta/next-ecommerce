@@ -2,7 +2,7 @@ import { useState } from 'react';
 import List from './list';
 
 import { useEffect } from "react";
-import AppUrl from '../../pages/AppUrl.js';
+import {AppUrl} from '../../pages/AppUrl.js';
 
 import {useRouter} from 'next/router';
 

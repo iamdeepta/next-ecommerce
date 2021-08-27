@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react";
-import AppUrl from '../../pages/AppUrl.js';
+import {AppUrl} from '../../pages/AppUrl.js';
 export const Categories = () => {
 
   const [data,setData] = useState([]);

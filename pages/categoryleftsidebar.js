@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from 'react';
-import AppUrl from './AppUrl.js';
+import {AppUrl} from './AppUrl.js';
 import Link from 'next/link';
 
 const categoryleftsidebar = () => {

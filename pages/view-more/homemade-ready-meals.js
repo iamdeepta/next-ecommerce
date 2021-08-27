@@ -5,7 +5,7 @@ import ProductsContent from "./view-more-products";
 import Angle from "../../assets/icons/Angle-right";
 
 import { useState,useEffect } from "react";
-import AppUrl from '../../pages/AppUrl.js';
+import {AppUrl} from '../../pages/AppUrl.js';
 import CategoryLeftSideBar from '../../pages/categoryleftsidebar.js'
 // const styling = {
 //   backgroundImage: `url('https://static-01.daraz.com.bd/skyline/i8/ce6623d0887748a5a75d6b578ee3d44c-1188-300.jpg_desktop.jpg')`,
